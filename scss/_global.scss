@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: $white;
+    // background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+
+    &.no-scroll {
+        overflow-y: hidden;
+    }
+    @media(max-width:1220px) {
+        overflow-x: hidden;
+    }
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1165px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
